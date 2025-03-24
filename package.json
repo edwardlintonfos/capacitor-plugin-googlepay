@@ -40,7 +40,7 @@
     "watch": "tsc --watch",
     "prepare": "npm run build",
     "prepublishOnly": "npm run build",
-    "copy-ts-definitions": "mkdir dist/types && cp types/* dist/types/"
+    "copy-ts-definitions": "mkdir dist\\types && copy types\\* dist\\types"
   },
   "devDependencies": {
     "@capacitor/android": "^6.0.0",
